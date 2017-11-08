@@ -1,8 +1,24 @@
-body {
-  text-align: center;
+@font-face {
+    font-family: montserrat-regular;
+    src: url(../fonts/Montserrat-Regular.otf);
 }
 
-.scene {
-  padding-top: 30px;
-  width: 60%;
+@font-face {
+    font-family: montserrat-light;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+
+body {
+    text-align: center;
+}
+
+.scene_text {
+    font-family: montserrat-light;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.scene_img {
+    padding-top: 30px;
+    width: 100%;
 }
